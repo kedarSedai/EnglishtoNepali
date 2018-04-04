@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/numbers"
+        style="@style/mainlayout"
+        android:background="@color/LightBlue"
+        android:text="@string/name" />
+
+    <TextView
+        android:id="@+id/phrases"
+        style="@style/mainlayout"
+        android:background="@color/orange"
+        android:text="@string/phrases" />
+
+    <TextView
+        android:id="@+id/colors"
+        style="@style/mainlayout"
+        android:background="@color/cyan"
+        android:text="@string/color" />
+
+
+    <TextView
+        android:id="@+id/familymembers"
+        style="@style/mainlayout"
+        android:background="@color/LightGreen"
+        android:text="@string/family" />
+
+
+</LinearLayout>
